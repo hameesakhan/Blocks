@@ -5,9 +5,20 @@
 #social_block p {
   margin: 0px;
   font-size: 30px;
+  text-align: right;
+}
+@media (max-width: 992px) {
+  #social_block p {
+    text-align: center;
+  }
 }
 #social_block .list-inline {
   margin: 0px;
+}
+@media (max-width: 992px) {
+  #social_block .list-inline {
+    text-align: center;
+  }
 }
 #social_block .list-inline li a i {
   font-size: 40px;

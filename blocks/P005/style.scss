@@ -33,6 +33,11 @@ $screen-md : 992px;
 		}
 	}
 	.widget{
+		@include screen-sm{
+			width: 300px;
+			margin:0 auto 30px;
+			text-align: center;
+		}
 		h1{
 			margin: 0px 0px 20px;
 			display: inline-block;
@@ -41,6 +46,9 @@ $screen-md : 992px;
 			border-bottom: 2px solid;
 		}
 		.useful_links {
+			@include screen-sm{
+				text-align: left;
+			}
 		    font-size: 18px;
 		    margin: 0px 0px 0px 20px;
 		    li {
@@ -53,7 +61,6 @@ $screen-md : 992px;
 		    max-width: 100%;
 		    margin-bottom: 5px;
 		    background: #f6f6f6;
-		    float: left;
 		    position: relative;
 		    .icon {
 			    padding: 8px 0px;
@@ -68,11 +75,17 @@ $screen-md : 992px;
 			.content {
 			    padding: 12px 0px 12px 58px;
 			    margin: 0;
+			    @include screen-sm{
+					text-align: left;
+				}
 			}
 		}
 	}
 	.subscription-text {
 		margin: 20px 0px;
+		@include screen-sm{
+			text-align: center;
+		}
 	}
 	.social-links{
 		li{

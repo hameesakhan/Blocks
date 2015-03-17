@@ -1,0 +1,24 @@
+.call-to-action {
+  text-align: center;
+  background: #DADADA;
+  padding: 20px;
+}
+.call-to-action h3 {
+  line-height: 1.45;
+  margin-top: 0;
+}
+.call-to-action .btn-right {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .call-to-action {
+    text-align: left;
+  }
+  .call-to-action h3 {
+    margin: 0;
+  }
+  .call-to-action .btn-right {
+    text-align: right;
+  }
+}

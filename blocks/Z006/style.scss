@@ -1,0 +1,46 @@
+$screen-xs : 480px;
+$screen-sm : 768px;
+$screen-md : 992px;
+
+@mixin screen-xs {
+	@media (max-width: #{$screen-xs}){
+		@content;
+	}
+}
+@mixin screen-sm {
+	@media (max-width: #{$screen-sm}){
+		@content;
+	}
+}
+@mixin screen-md {
+	@media (max-width: #{$screen-md}){
+		@content;
+	}
+}
+
+#social_block{
+	background: #dadada;
+	padding: 30px;
+	p{
+		margin: 0px;
+		font-size: 30px;
+		text-align: right;
+		@include screen-md {
+			text-align: center;
+		}
+	}
+	.list-inline{
+		margin: 0px;
+		@include screen-md{
+			text-align: center;
+		}
+		li{
+			a{
+				i{
+					font-size: 40px;
+				}
+			}
+		}
+
+	}
+}

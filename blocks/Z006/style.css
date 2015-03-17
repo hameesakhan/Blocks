@@ -1,0 +1,16 @@
+#social_block {
+  background: #dadada;
+  padding: 30px;
+}
+#social_block p {
+  margin: 0px;
+  font-size: 30px;
+}
+#social_block .list-inline {
+  margin: 0px;
+}
+#social_block .list-inline li a i {
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

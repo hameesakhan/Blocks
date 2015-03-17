@@ -1,0 +1,102 @@
+//colors
+$white: white;
+$gray: grey;
+
+//fonts
+$font_0: cursive;
+
+//@extend-elements
+//original selectors
+//.triangle:after, .triangle:before
+%extend_1 {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+
+.white {
+	color: $white !important;
+}
+.title-start {
+	text-align: center;
+}
+.testimonial {
+	background: $gray center center/cover no-repeat fixed;
+	padding: 100px 0;
+}
+.item-image {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 50%;
+}
+.carousel-inner {
+	height: 300px;
+}
+@media(max-width: 500px) {
+	.triangle {
+		padding: 6px 0 94px !important;
+	}
+}
+.triangle {
+	padding: 20px 10px 80px;
+	background: transparent;
+	border: 4px solid $white;
+	&:after {
+		@extend %extend_1;
+		border-color: rgba(255, 255, 255, 0);
+		border-bottom-color: $white;
+		border-width: 30px;
+		margin-left: -30px;
+	}
+	&:before {
+		@extend %extend_1;
+		border-color: rgba(255, 255, 255, 0);
+		border-bottom-color: $white;
+		border-width: 36px;
+		margin-left: -36px;
+	}
+}
+.carousel-caption {
+	top: 195px;
+	border: 1px solid;
+}
+.carousel-control {
+	&.left {
+		background: none;
+	}
+	&.right {
+		background: none;
+	}
+}
+.fa-quote-left {
+	font-size: 15px !important;
+	position: relative;
+	right: 10px;
+}
+.fa-quote-right {
+	font-size: 15px !important;
+	position: relative;
+	left: 10px;
+}
+p h2 {
+	color: $white;
+}
+p.sub-title.white.text-center {
+	margin-bottom: 60px;
+}
+span.head-text {
+	font-size: 18px;
+	margin-top: -10px;
+	font-size: 21px;
+	position: relative;
+	font-family: $font_0;
+	margin-bottom: 2px solid $white;
+}

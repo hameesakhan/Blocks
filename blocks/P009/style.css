@@ -1,0 +1,23 @@
+.download-now .half-circle-img {
+  height: 1px;
+  border-radius: 0 100% 100% 0;
+  padding-bottom: 100%;
+  background: #e7e7e7 url(http://lorempixel.com/600/600);
+}
+.download-now .download-icons {
+  margin-top: 15px;
+  text-align: center;
+}
+.download-now .download-icons i {
+  font-size: 4em;
+}
+.download-now .download-icons a {
+  display: block;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .download-now .download-icons {
+    margin-top: 190px;
+  }
+}

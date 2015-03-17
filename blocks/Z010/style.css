@@ -1,0 +1,28 @@
+header hr {
+  width: 10%;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.block-heading {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  font-size: 19px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.client-image img {
+  margin: 15px auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.client-image img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}

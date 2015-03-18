@@ -1,0 +1,34 @@
+.find-us {
+	background-color: #ddd;
+	padding: 20px;
+
+	.block-heading {
+		h2 {
+			margin-top: 0;
+			text-align: center;
+		}
+	}	
+}
+
+.social-official {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+
+	li {
+		display: inline-block;
+
+		a {
+			display: block;
+			height: 32px;
+			width: 32px;
+		}
+
+		.facebook {background-color: #3B5998}
+		.twitter {background-color: #2AA9E0}
+		.google-plus {background-color: #DC4A38}
+		.pinterest {background-color: #CB2027}
+		
+
+	}
+}

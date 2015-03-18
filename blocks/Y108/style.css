@@ -1,0 +1,14 @@
+.block-heading h2 {
+  margin: 35px 0px;
+}
+
+.item .client-comment {
+  padding: 40px 0px 25px 0px;
+}
+.item .client-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+.item .client-designation {
+  font-style: italic;
+}

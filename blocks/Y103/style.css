@@ -1,0 +1,41 @@
+.block {
+  background-color: #f3f3f3;
+  padding: 35px 0px;
+}
+.block .block-heading h2 {
+  font-size: 32px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+.block .block-heading .sub-title {
+  font-size: 17px;
+  text-transform: capitalize;
+}
+.block .team-member .member-img {
+  border: 2px ridge grey;
+  margin-top: 20px;
+  padding: 3px;
+}
+.block .team-member .team-member-name {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.block .team-member .team-member-position {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+.block .team-member .team-member-contact {
+  font-size: 17px;
+  padding: 20px 0px;
+}
+.block .team-member .team-member-contact a {
+  border: 1px solid #666666;
+  color: #666666;
+  margin: 0px 5px;
+  padding: 5px;
+}
+.block .team-member .team-member-contact a:hover {
+  background-color: #666666;
+  color: #fff;
+  text-decoration: none;
+}

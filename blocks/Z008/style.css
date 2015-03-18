@@ -1,0 +1,36 @@
+.subscribe {
+  background-color: #ddd;
+  padding: 20px;
+}
+.subscribe h2 {
+  margin-top: 0;
+  text-align: center;
+}
+.subscribe .subscribe-form .form-group {
+  margin-bottom: 0;
+  text-align: center;
+}
+.subscribe .subscribe-form .form-group input {
+  margin-bottom: 15px;
+}
+.subscribe .subscribe-form button {
+  border-radius: 100%;
+  padding: 16px 9px;
+}
+
+@media only screen and (min-width: 768px) {
+  .subscribe h2 {
+    text-align: right;
+  }
+  .subscribe .subscribe-form .form-group {
+    text-align: left;
+  }
+  .subscribe .subscribe-form .form-group input {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .subscribe h2 {
+    margin-top: 10px;
+  }
+}

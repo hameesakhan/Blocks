@@ -22,13 +22,52 @@
 			display: block;
 			height: 32px;
 			width: 32px;
+			position: relative;
 		}
 
 		.facebook {background-color: #3B5998}
 		.twitter {background-color: #2AA9E0}
 		.google-plus {background-color: #DC4A38}
 		.pinterest {background-color: #CB2027}
-		
 
+		.facebook::before {
+			content: '\f231';
+			font-family: "Ionicons";
+			position: absolute;
+			left: 38%;
+			top: -4%;
+			font-size: 1.8em;
+			color: #fff;
+		}
+
+		.twitter::before {
+			content: '\f243';
+			font-family: "Ionicons";
+			position: absolute;
+			left: 16%;
+  			top: -4%;
+			font-size: 1.8em;
+			color: #fff;
+		}
+
+		.google-plus::before {
+			content: '\f34e';
+			font-family: "Ionicons";
+			position: absolute;
+			left: 30%;
+  			top: -4%;
+			font-size: 1.8em;
+			color: #fff;
+		}
+
+		.pinterest::before {
+			content: '\f2b0';
+			font-family: "Ionicons";
+			position: absolute;
+			left: 17%;
+  			top: -4%;
+			font-size: 1.8em;
+			color: #fff;
+		}
 	}
 }

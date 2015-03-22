@@ -1,0 +1,32 @@
+.block {
+  background-color: #f6f6f6;
+}
+.block .block-content {
+  padding: 40px 0px;
+}
+.block .block-content .block-title {
+  font-size: 40px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.block .block-content .sub-title {
+  font-size: 19px;
+}
+.block .block-content hr {
+  border-top: 1px solid #B0AFAF;
+  margin-top: 0px;
+}
+.block .block-content .block-description {
+  line-height: 1.64em;
+  text-align: justify;
+}
+.block .block-content .block-description .read-more-button {
+  padding-top: 5px;
+}
+.block .block-content .block-description .read-more-button .btn {
+  border-radius: 0px;
+  font-size: 15px;
+  line-height: 1.64em;
+  padding: 10px 20px;
+}

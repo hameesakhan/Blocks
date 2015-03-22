@@ -1,0 +1,33 @@
+.block {
+	background-color: #f3f3f3;
+	padding: 35px 0px;
+
+	.block-content {
+		.button-group {
+		    margin-bottom: 30px;
+		    margin-top: 35px;
+		}
+
+		.isotope {
+			img {
+				margin: 20px 0px;
+			}
+		}
+
+		#web, #game, #app {
+		    display: none;
+		}
+	}
+
+	.block-heading {
+		h2 {
+			font-size: 32px;
+			margin-bottom: 14px;
+			text-transform: uppercase;
+		}
+		.sub-title {
+			font-size: 17px;
+			text-transform: capitalize;
+		}
+	}
+}

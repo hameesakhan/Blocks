@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>P000 - Portfolio Section</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="../../lib/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+
+        
+    </head>
+    <body>
+
+    	<section id="portfolio" class="block">
+            <div class="block-content container">
+
+                <div class="row">
+                    <header class="block-heading text-center">
+                        <h2>Portfolio</h2>
+                        <p class="sub-title">Subtitle of this block</p>
+                    </header>
+                </div><!--  /.row -->
+                    
+                <div class="row">
+                    <div class="port">
+                        <div class="col-md-8 col-md-offset-2 text-center button-group" id="filters">
+                            <button type="button" class="btn btn-default is-checked" data-filter="*">All</button>
+                            <button type="button" class="btn btn-default" data-filter=".web">Web Design</button>
+                            <button type="button" class="btn btn-default" data-filter=".game">Game</button>
+                            <button type="button" class="btn btn-default" data-filter=".app">App</button>
+                        </div><!-- /.button-group #filters -->
+                    </div>
+                </div><!-- /.row -->
+
+                <div class="row">
+                    <div class="isotope" id="port-items">
+
+                        <div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
+                            <img class="img-responsive center-block" src="http://lorempixel.com/450/290" >
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
+                            <img class="img-responsive center-block" src="http://lorempixel.com/450/290">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
+                            <img class="img-responsive center-block" src="http://lorempixel.com/450/290">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
+                            <img class="img-responsive center-block" src="http://lorempixel.com/450/290">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
+                            <img class="img-responsive center-block" src="http://lorempixel.com/450/290">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
+                            <img class="img-responsive center-block" src="http://lorempixel.com/450/290">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
+                            <img class="img-responsive center-block" src="http://lorempixel.com/450/290">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
+                            <img class="img-responsive center-block" src="http://lorempixel.com/450/290">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
+                            <img class="img-responsive center-block" src="http://lorempixel.com/450/290">
+                        </div>
+
+                    </div>  <!-- isotope -->
+                </div>  <!-- row -->
+
+            </div><!--/.container-->
+    	</section><!--/#portfolio-->
+    	
+        <script src="../../lib/jquery-1.11.2.min.js"></script>
+    	<script src="../../lib/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+        <script src="../../lib/isotope.pkgd.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

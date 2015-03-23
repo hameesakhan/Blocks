@@ -1,0 +1,44 @@
+.mini-blog {
+	padding: 20px;
+
+	.block-heading {
+		h2 {
+			margin-top: 0;
+			margin-bottom: 30px;
+			text-align: center;
+		}
+	}
+
+	.blog-item {
+		border: 1px solid #ddd;
+		margin-bottom: 15px;
+		text-align: center;
+
+		.blog-item-right {
+			header {
+  				padding: 5px;
+			}
+
+			h2 {
+				margin: 0;
+			}
+
+			.blog-item-body {
+				border-top: 0;
+				padding: 5px;
+			}
+
+			footer {
+				padding: 5px;
+			}
+		}
+	}
+}
+
+@media (min-width : 768px) {
+	.mini-blog {
+		.blog-item {
+			text-align: left;
+		}
+	}
+}

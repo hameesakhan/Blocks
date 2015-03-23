@@ -1,0 +1,32 @@
+.mini-blog {
+  padding: 20px;
+}
+.mini-blog .block-heading h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.mini-blog .blog-item {
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.mini-blog .blog-item .blog-item-right header {
+  padding: 5px;
+}
+.mini-blog .blog-item .blog-item-right h2 {
+  margin: 0;
+}
+.mini-blog .blog-item .blog-item-right .blog-item-body {
+  border-top: 0;
+  padding: 5px;
+}
+.mini-blog .blog-item .blog-item-right footer {
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .mini-blog .blog-item {
+    text-align: left;
+  }
+}

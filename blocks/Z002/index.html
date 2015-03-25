@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Z002 - Contact Us Section</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="../../lib/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../lib/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+
+        
+    </head>
+
+    <body>
+
+        <div id="fb-root"></div>
+        <script>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+    	<section id="contact" class="block">
+            <div class="block-content container">
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div class="address">
+                            <div class="block-heading">
+                                <h3>Address</h3>
+                                <hr>
+                            </div>
+                            
+                            <div class="address-desc">
+                                <div class="row address-info">
+                                    <div class="col-sm-2 address-info-icon">
+                                        <i class="fa fa-envelope-o fa-fw"></i>
+                                    </div>
+                                    <div class="col-sm-10 address-info-desc">
+                                        abc@abc.com
+                                    </div><!--  /.address-info-desc -->
+                                </div><!--  /.address-info -->
+
+                                <div class="row address-info">
+                                    <div class="col-sm-2 address-info-icon">
+                                        <i class="fa fa-mobile fa-fw"></i>
+                                    </div>
+                                    <div class="col-sm-10 address-info-desc">
+                                        +01234567890
+                                    </div><!--  /.address-info-desc -->
+                                </div><!--  /.address-info -->
+
+                                <div class="row address-info">
+                                    <div class="col-sm-2 address-info-icon">
+                                        <i class="fa fa-map-marker fa-fw"></i>
+                                    </div>
+                                    <div class="col-sm-10 address-info-desc">
+                                        Shurma Resedencial Area, Sylhet, Bangladesh.
+                                    </div><!--  /.address-info-desc -->
+                                </div><!--  /.address-info -->
+
+                            </div><!--  /.address-desc -->
+                        </div> <!--  /.address -->
+                    </div> <!--  /.col-sm-4  -->
+
+                    <div class="col-sm-4">
+                        <div class="contact">
+                            <div class="block-heading">
+                                <h3>Contact</h3>
+                                <hr>
+                            </div>
+                            <form class="contact-form" action="form.php">
+                                <input type="text" name="name" placeholder="Name" required>
+                                <input type="email" name="email" placeholder="Email" required>
+                                <textarea rows="5" name="message" placeholder="Say Something..." required></textarea>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="like-box">
+                            <div class="block-heading">
+                                <h3>Like Us</h3>
+                                <hr>
+                            </div>
+
+                            <div class="fb-like-box" data-href="https://www.facebook.com/TechNextit" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+                        </div>
+                    </div>
+
+                </div><!--  /.row -->
+            </div><!--/.container-->
+    	</section><!--/#contact-->
+    	
+        <script src="../../lib/jquery-1.11.2.min.js"></script>
+    	<script src="../../lib/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
